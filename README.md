@@ -1,5 +1,5 @@
 # Hosts
-NMap wrapper that binds custom hostsnames to MAC addresses instead of to IP addresses
+> NMap wrapper that binds custom hostsnames to MAC addresses instead of to IP addresses
 
 Unlike `/etc/hosts`, which allows the user to bind a custom hostname to its IP address, Hosts allows the user to link custom hostnames to a certain MAC address. `$HOME/.config/hosts/.macs.hosts` must be filled by the user with known MAC addresses and the custom hostnames associated to them in the following form: 'xx:xx:xx:xx:xx:xx host_name'.
 
