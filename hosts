@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 ! [[ $(command -v nmap) ]] && echo "${prog_name}: nmap is not installed" && exit 1
 
