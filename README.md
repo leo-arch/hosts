@@ -19,7 +19,11 @@ Unlike `/etc/hosts`, which allows the user to bind a custom hostname to its IP a
 
 ## Usage: 
 hosts [option]
+
 -h, --help: Show this help and exit
+
 -p, --ports [ip_address]: Show opened ports in ip_address
--e, --edit: Edit the MAC addresses file"
+
+-e, --edit: Edit the MAC addresses file
+
 With no arguments, network hosts will be listed, showing the following data: custom hostname, IP address, MAC address, and MAC vendor.
