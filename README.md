@@ -26,4 +26,6 @@ hosts [option]
 
 -e, --edit: Edit the MAC addresses file
 
-With no arguments, local network hosts will be listed, showing the following data: custom hostname, IP address, MAC address, and MAC vendor.
+With no arguments, local network hosts will be listed, showing the following data: custom hostname, IP address, MAC address, and MAC vendor. Hosts will list not only known connected MAC addresses (in green), but also unknown connected MAC addresses (in red), and finally known disconnected MAC addreses (in dark green) as well.
+
+![alt_tag](https://github.com/leo-arch/hosts/blob/master/hosts.png)
