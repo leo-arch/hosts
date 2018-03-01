@@ -26,4 +26,4 @@ hosts [option]
 
 -e, --edit: Edit the MAC addresses file
 
-With no arguments, network hosts will be listed, showing the following data: custom hostname, IP address, MAC address, and MAC vendor.
+With no arguments, local network hosts will be listed, showing the following data: custom hostname, IP address, MAC address, and MAC vendor.
